@@ -1,12 +1,12 @@
 <p align="center">
-   <a href="https://github.com/SkyLab-Devs/CosmicUserbot"><img src="https://github.com/SkyLab-Devs/CosmicUserbot/raw/starfire/resources/cosmic.jpg" alt="Fizi Logo" width=600px></a>
+   <a href="https://github.com/mahajant99/OptimusUserbot"><img src="https://github.com/mahajant99/OptimusUserbot/raw/starfire/resources/Optimus.jpg" alt="Fizi Logo" width=600px></a>
    <br>
    <br>
 </p>
 
-# Cosmic Userbot
+# Optimus Userbot
 
-[![Build](https://img.shields.io/github/workflow/status/SkyLab-Devs/CosmicUserbot/FailedChecker?style=for-the-badge)](https://github.com/SkyLab-Devs/CosmicUserbot/actions "build")
+[![Build](https://img.shields.io/github/workflow/status/mahajant99/OptimusUserbot/FailedChecker?style=for-the-badge)](https://github.com/mahajant99/OptimusUserbot/actions "build")
 
 ![Spec](https://img.shields.io/badge/Made%20with-LOVE-black?style=for-the-badge)
 
@@ -44,11 +44,11 @@ curl -L https://git.io/Jyiwj > session_gen.sh && bash session_gen.sh
 ### Deploy on Heroku
 Make sure you have an account of heroku and follow all the steps required.
 
-<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/SkyLab-Devs/CosmicUserbot/tree/demon"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+<p align="left"><a href="https://heroku.com/deploy?template=https://github.com/mahajant99/OptimusUserbot/tree/starfire"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 ## Groups and Support
 
-For discussion, bug reporting, and help, you can join [Cosmic Userbot](https://t.me/CosmicUserbotChat) support group.
+For discussion, bug reporting, and help, you can text [Tushar Mahajan](https://t.me/mahajant99) support group.
 For further guide you can read this [Guide](https://frost2k5.games/ProjectFizilion).
 
 
@@ -64,7 +64,7 @@ Thanks:
 * [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
 * [MoveAngel](https://github.com/MoveAngel) - One4U
 
-and many more people who aren't mentioned here, but may be found in [Contributors](https://github.com/SkyLab-Devs/CosmicUserbot/graphs/contributors).
+and many more people who aren't mentioned here, but may be found in [Contributors](https://github.com/mahajant99/OptimusUserbot/graphs/contributors).
 
 ## License
 

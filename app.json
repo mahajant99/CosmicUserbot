@@ -1,7 +1,7 @@
 {
-  "name": "Cosmic Userbot",
+  "name": "Optimus Userbot",
   "description": "A modular Telegram userbot running on Python 3.8+ with an sqlalchemy database.",
-  "logo": "https://github.com/SkyLab-Devs/CosmicUserbot/raw/demon/resources/Fizilion.png",
+  "logo": "https://github.com/mahajant99/OptimusUserbot/raw/starfire/resources/Optimus.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/SkyLab-Devs/CosmicUserbot",
-  "website": "https://t.me/CosmicUserbotChat",
-  "success_url": "https://t.me/CosmicUserbotChat",
+  "repository": "https://github.com/mahajant99/OptimusUserbot",
+  "website": "https://t.me/mahajant99",
+  "success_url": "https://t.me/mahajant99",
   "stack": "container",
   "env": {
     "API_KEY": {

@@ -68,14 +68,14 @@ async def killdabot(reboot):
 async def reedme(event):
     await event.edit(
         "Here's something for you to read:\n"
-        "\n[Cosmic UB's' README.md file](https://github.com/SkyLab-Devs/CosmicUserbot/blob/demon/README.md)"
+        "\n[Optimus UB's' README.md file](https://github.com/mahajant99/OptimusUserbot/blob/demon/README.md)"
 )
 
 
 @register(outgoing=True, pattern="^.guide$")
 async def guidee(event):
     await event.edit(
-        "*Guide on Deploying CosmicUserbot*\n"
+        "*Guide on Deploying OptimusUserbot*\n"
         "•[Reading Guide](https://frost2k5.github.io/ProjectFizilion)\n"
         "•[Yt Guide](https://youtu.be/tJzmrTq09tA)\n"
 )
@@ -100,19 +100,19 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "[Click here](https://github.com/SkyLab-Devs/CosmicUserbot) to open Cosmic UB's GitHub Repo."
+        "[Click here](https://github.com/mahajant99/OptimusUserbot) to open Optimus Userbot GitHub Repo."
     )
 
 @register(outgoing=True, pattern="^.deploy$")
 async def repo_is_here(wannasee):
     """ For .deploy command, just returns the heroku deploying URL. """
     await wannasee.edit(
-        "[Click here](https://heroku.com/deploy?template=https://github.com/SkyLab-Devs/CosmicUserbot/tree/starfire) to deploy Cosmic Userbot on Heroku."
+        "[Click here](https://heroku.com/deploy?template=https://github.com/mahajant99/OptimusUserbot/tree/starfire) to deploy Optimus Userbot on Heroku."
     )
 
 @register(outgoing=True, pattern="^.support$")
 async def grup(sapot):
-    await sapot.edit("**Channel:** @CosmicUserbot\n**Support Group:** @CosmicUserbotChat")
+    await sapot.edit("**Support Group:** @mahajant99")
     
 @register(outgoing=True, pattern="^.raw$")
 async def raw(rawtext):
@@ -151,7 +151,7 @@ CMD_HELP.update(
 ".readme"
 "\nUsage: Provide links to setup the userbot and it's modules\nAnd .support for support group\n\n"
 ".guide"
-"\nUsage: Provides Full guide to setup Cosmic Userbot.\n\n"
+"\nUsage: Provides Full guide to setup Optimus Userbot.\n\n"
 ".repeat <no.> <text>"
 "\nUsage: Repeats the text for a number of times. Don't confuse this with spam tho.\n\n"
 ".restart"
@@ -159,6 +159,6 @@ CMD_HELP.update(
 ".raw"
 "\nUsage: Get detailed JSON-like formatted data about replied message."
 ".deploy"
-"\nUsage: Get link to deploy Cosmic Userbot on Heroku."
+"\nUsage: Get link to deploy Optimus Userbot on Heroku."
      }
 )

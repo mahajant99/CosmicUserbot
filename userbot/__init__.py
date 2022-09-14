@@ -50,7 +50,7 @@ if version_info[0] < 3 or version_info[1] < 8:
     quit(1)
 
 repo_lenk = Repo().remotes.origin.url.split('.git')[0].split('.com/')[1] if Repo().remotes.origin.url else "null"
-LOGS.info(f"Starting Cosmic Userbot on {repo_lenk}")
+LOGS.info(f"Starting Optimus Userbot on {repo_lenk}")
 
 # Check if the config was edited by using the already used variable.
 # Basically, its the 'virginity check' for the config file ;)
@@ -103,7 +103,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN") or None
 
 # Custom (forked) repo URL and BRANCH for updater.
 UPSTREAM_REPO_URL = (os.environ.get("UPSTREAM_REPO_URL")
-                     or "https://github.com/SkyLab-Devs/CosmicUserbot.git")
+                     or "https://github.com/mahajant99/OptimusUserbot.git")
 UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH") or "starfire"
 ###
 
@@ -143,7 +143,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT") or "False")
 ALIVE_NAME = os.environ.get("ALIVE_NAME") or None
 
 # Default .alive logo
-ALIVE_LOGO = str(os.environ.get("ALIVE_LOGO") or "https://github.com/SkyLab-Devs/CosmicUserbot/raw/starfire/resources/cosmic.jpg")
+ALIVE_LOGO = str(os.environ.get("ALIVE_LOGO") or "https://github.com/mahajant99/OptimusUserbot/raw/starfire/resources/Optimus.jpg")
 
 # Custom Alive Message
 ALIVE_MESSAGE = str(os.environ.get("ALIVE_MESSAGE") or "")
@@ -155,14 +155,14 @@ TIMEOUT = sb(os.environ.get("TIMEOUT") or "True")
 COUNTRY = str(os.environ.get("COUNTRY") or "")
 TZ_NUMBER = os.environ.get("TZ_NUMBER") or 1
 
-# Version of Project Fizilion
-USERBOT_VERSION = "4.5"
+# Version of Project Optinus
+USERBOT_VERSION = "1.0"
 
 # User Terminal alias
 USER_TERM_ALIAS = os.environ.get("USER_TERM_ALIAS") or "starfire"
 
 # Updater alias
-UPDATER_ALIAS = os.environ.get("UPDATER_ALIAS") or "Cosmic Userbot"
+UPDATER_ALIAS = os.environ.get("UPDATER_ALIAS") or "Optimus Userbot"
 
 # Zipfile module
 ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY") or "./zips"
